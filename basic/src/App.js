@@ -5,6 +5,7 @@ import "./App.css";
 
 class App extends Component {
  inputElement = React.createRef()
+ inputElement2 = React.createRef();
  constructor() {
    super()
    this.state = {
@@ -49,6 +50,7 @@ class App extends Component {
        <TodoList
          addItem={this.addItem}
          inputElement={this.inputElement}
+         inputElement2={this.inputElement2}
          handleInput={this.handleInput}
          currentItem={this.state.currentItem}
        />

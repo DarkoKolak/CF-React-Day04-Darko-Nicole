@@ -7,7 +7,7 @@
   font-family: arial;
   margin-top: 1vw;
   padding: 2vw;
-  height: 100px;
+  height: 10%;
   background: -webkit-linear-gradient(left top, red , blue); 
   background: -o-linear-gradient(bottom right, red, blue); 
   background: -moz-linear-gradient(bottom right, red, blue);
@@ -17,11 +17,12 @@
 .Main {
   margin-bottom: 2vw;
   padding: 2vw;
-  color: khaki;
+  color: white;
+  font-style: italic;
   font-size: 4vw;
   width: 50%;
   margin-left: 25%;
-  height: 10%;
+  height: 10%; 
 }
 
 ul {
@@ -36,7 +37,8 @@ ul {
 
 li {
   padding: 1vw;
-  color: khaki;
+  color: white;
+  font-style: italic;
   list-style-type: none;
 }
 
@@ -67,3 +69,4 @@ input {
   background-color: white;
   border-radius: 10%;
  }
+ 

@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 class TodoList extends Component {
  componentDidUpdate() {
    this.props.inputElement.current.focus()
+/*  this.props.inputElement2.current.focus();*/
  }
  render() {
    return (
@@ -11,7 +12,16 @@ class TodoList extends Component {
          <form onSubmit={this.props.addItem}>
            <input
              placeholder="Task"
+
              ref={this.props.inputElement}
+             value={this.props.currentItem.text}
+             onChange={this.props.handleInput}
+           />
+           <input id = "darko"
+             placeholder="Task"
+             value =""
+
+             ref2={this.props.inputElement2}
              value={this.props.currentItem.text}
              onChange={this.props.handleInput}
            />
